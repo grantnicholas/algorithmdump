@@ -1,0 +1,13 @@
+class Node:
+	def __init__(self,left,right,val):
+		self.left = left
+		self.right = right
+		self.val = val
+class Btree:
+	root = None
+
+	def insert(node,val):
+		if root is None:
+			root = Node(none, none, val)
+		elif val > root.val:
+			insert( 
